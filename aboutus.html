@@ -1,1 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Brew Haven</title>
+    <link rel="stylesheet" href="styles/aboutus.css">
+    <link href="https://fonts.googleapis.com/css?family=Niconne|Montserrat:400,700&display=swap" rel="stylesheet">
+    <script defer src="js/main.js"></script>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo" style="font-family: 'Niconne', cursive;">Brew Haven</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#" class="active">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+        <div class="cart-icon">
+            <img src="image/cart.svg" alt="Cart" />
+        </div>
+    </nav>
 
+    <!-- Hero Section -->
+    <section class="hero-image-overlay">
+        <img src="image/e61b5c8e30ab095ed54adc45d5e566a36c053314.png" alt="Cafe ambiance" />
+        <div class="hero-text">
+            <h1>OUR STORY</h1>
+            <p>Passionate about coffee, committed to quality and community.</p>
+        </div>
+    </section>
+
+
+    <!-- Our Journey Section -->
+    <section class="journey">
+        <h2>OUR JOURNEY</h2>
+        <div class="journey-cards">
+            <div class="journey-card">
+                <img src="image/beginning.svg" alt="The Beginning" class="icon">
+                <h3>The Beginning</h3>
+                <p>Started as a small corner café with a big dream: to serve the perfect cup of coffee while creating a welcoming space for our community.</p>
+            </div>
+            <div class="journey-card">
+                <img src="image/growth.svg" alt="The Growth" class="icon">
+                <h3>The Growth</h3>
+                <p>Expanded our offerings, perfected our craft, built lasting relationships with coffee farmers around the world.</p>
+            </div>
+            <div class="journey-card">
+                <img src="image/today.svg" alt="Today" class="icon">
+                <h3>Today</h3>
+                <p>A beloved destination where quality coffee, artisanal food, and community connection come together perfectly.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Faces Behind Your Coffee -->
+    <section class="team">
+        <h2>The Faces Behind Your Coffee</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="image/janith.jpg" alt="Janith Wathsala">
+                <h4>Janith Wathsala</h4>
+                <span>Founder & Head Roaster</span>
+                <p>With 8 years of experience in specialty coffee, Janith leads our team with passion and expertise.</p>
+            </div>
+            <div class="team-member">
+                <img src="image/pasindu.jpg" alt="Pasindu Dilakshana">
+                <h4>Pasindu Dilakshana</h4>
+                <span>Head Roaster</span>
+                <p>A certified roaster with a talent for crafting the perfect cup and training our team.</p>
+            </div>
+            <div class="team-member">
+                <img src="image/muthumali.jpg" alt="Muthumali Hansani">
+                <h4>Muthumali Hansani</h4>
+                <span>Pastry Chef</span>
+                <p>Bringing harmony of fresh innovation to our selection of scratch-baked pastries.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section class="cta">
+        <h2>Join Our Coffee Journey</h2>
+        <p>Whether you're coffee enthusiast or just beginning to explore the world of specialty coffee, we invite you to be part of our story.</p>
+        <a href="#" class="cta-btn">Visit Us Today!</a>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="newsletter">
+        <form action="Php/subscribe.php" method="POST" id="newsletter-form">
+            <label for="newsletter-email">Subscribe to receive updates on new offerings and events.</label>
+            <div class="newsletter-input-group">
+                <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required>
+                <button type="submit">Subscribe</button>
+            </div>
+            <div id="newsletter-message"></div>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-brand">
+                <div class="logo" style="font-family: 'Niconne', cursive;">Brew Haven</div>
+                <p>Crafting experiences since 2020. Our mission: serve the finest coffee in a welcoming environment.</p>
+            </div>
+            <div class="footer-links">
+                <h5>Quick Links</h5>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h5>Contact Us</h5>
+                <p>331 Galle Road, Colombo 3</p>
+                <p>078-2223344</p>
+                <p>brewhaven2020@gmail.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Cookie Policy</a></li>
+            </ul>
+            <span>&copy; 2025 Brew Haven. All rights reserved.</span>
+        </div>
+    </footer>
+</body>
+</html> 
