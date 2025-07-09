@@ -7,26 +7,27 @@
     <link rel="stylesheet" href="styles/aboutus.css">
     <link href="https://fonts.googleapis.com/css?family=Niconne|Montserrat:400,700&display=swap" rel="stylesheet">
     <script defer src="js/main.js"></script>
+    <link rel="stylesheet" href="styles/nav-foot.css">
 </head>
 <body>
     <!-- Navigation Bar -->
-    <nav class="navbar">
-        <div class="logo" style="font-family: 'Niconne', cursive;">Brew Haven</div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Menu</a></li>
-            <li><a href="#">Gallery</a></li>
-            <li><a href="#" class="active">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-        <div class="cart-icon">
-            <img src="image/cart.svg" alt="Cart" />
-        </div>
+    <header>
+    <div class="logo">Brew Haven</div>
+    <nav>
+      <a href="./home.html">Home</a>
+      <a href="./menu.html">Menu</a>
+      <a href="./aboutus.html" class="active">About Us</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./contact.html">Contact</a>
     </nav>
+    <div>
+      🛒
+    </div>
+  </header>
 
     <!-- Hero Section -->
     <section class="hero-image-overlay">
-        <img src="image/e61b5c8e30ab095ed54adc45d5e566a36c053314.png" alt="Cafe ambiance" />
+        <img src="./image/gallery.png" alt="Cafe ambiance" />
         <div class="hero-text">
             <h1>OUR STORY</h1>
             <p>Passionate about coffee, committed to quality and community.</p>
@@ -88,50 +89,33 @@
         <a href="#" class="cta-btn">Visit Us Today!</a>
     </section>
 
-    <!-- Newsletter Subscription -->
-    <section class="newsletter">
-        <form action="Php/subscribe.php" method="POST" id="newsletter-form">
-            <label for="newsletter-email">Subscribe to receive updates on new offerings and events.</label>
-            <div class="newsletter-input-group">
-                <input type="email" id="newsletter-email" name="email" placeholder="Enter your email" required>
-                <button type="submit">Subscribe</button>
-            </div>
-            <div id="newsletter-message"></div>
-        </form>
-    </section>
-
     <!-- Footer -->
     <footer>
-        <div class="footer-top">
-            <div class="footer-brand">
-                <div class="logo" style="font-family: 'Niconne', cursive;">Brew Haven</div>
-                <p>Crafting experiences since 2020. Our mission: serve the finest coffee in a welcoming environment.</p>
-            </div>
-            <div class="footer-links">
-                <h5>Quick Links</h5>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Gallery</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </div>
-            <div class="footer-contact">
-                <h5>Contact Us</h5>
-                <p>331 Galle Road, Colombo 3</p>
-                <p>078-2223344</p>
-                <p>brewhaven2020@gmail.com</p>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <ul>
-                <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Terms of Service</a></li>
-                <li><a href="#">Cookie Policy</a></li>
-            </ul>
-            <span>&copy; 2025 Brew Haven. All rights reserved.</span>
-        </div>
-    </footer>
+    <div class="footer-grid">
+      <div>
+        <h3>Brew Haven</h3>
+        <p>Crafting exceptional coffee experiences since 2020. Our mission is to serve smiling coffee in a welcoming environment.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p>Home<br>Menu<br>Gallery<br>Contact</p>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <p>334, Galle Road, Colombo 3<br>070-2223324<br>brew-haven02@gmail.com</p>
+      </div>
+      <div class="subscribe">
+        <h4>Newsletter</h4>
+        <p>Subscribe to receive updates on new offerings and events.</p>
+        <input type="email" placeholder="Enter email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2022 Brew Haven. All rights reserved.</p>
+      <p>Privacy Policy | Terms of Service | Cookie Policy</p>
+    </div>
+  </footer>
 </body>
 </html> 

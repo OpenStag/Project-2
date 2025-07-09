@@ -7,43 +7,6 @@ body {
     padding: 0;
 }
 
-.navbar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background: rgba(255,255,255,0.92);
-    box-shadow: 0 2px 12px rgba(60,40,20,0.08);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 2rem;
-    z-index: 1000;
-    height: 64px;
-}
-.logo {
-    font-family: 'Niconne', cursive;
-    font-size: 2rem;
-    color: #7c4a1e;
-    letter-spacing: 2px;
-}
-.nav-links {
-    list-style: none;
-    display: flex;
-    gap: 2rem;
-    margin: 0;
-    padding: 0;
-}
-.nav-links li a {
-    text-decoration: none;
-    color: #3e2723;
-    font-weight: 600;
-    transition: color 0.2s;
-    padding: 8px 0;
-}
-.nav-links li a.active, .nav-links li a:hover {
-    color: #b98046;
-    border-bottom: 2px solid #b98046;
-}
 .cart-icon {
     margin-left: 2rem;
     display: flex;
@@ -219,126 +182,7 @@ body {
     transform: scale(1.05);
 }
 
-.newsletter {
-    background: #fbeee6;
-    padding: 2rem 1rem 2rem 1rem;
-    text-align: center;
-}
-.newsletter label {
-    font-size: 1.1rem;
-    color: #7c4a1e;
-    margin-bottom: 1rem;
-    display: block;
-}
-.newsletter-input-group {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 1rem;
-}
-.newsletter input[type="email"] {
-    padding: 0.7rem 1rem;
-    border-radius: 20px;
-    border: 1px solid #b98046;
-    font-size: 1rem;
-    outline: none;
-    width: 240px;
-}
-.newsletter button {
-    background: linear-gradient(90deg, #b98046 0%, #7c4a1e 100%);
-    color: #fff;
-    border: none;
-    border-radius: 20px;
-    padding: 0.7rem 1.5rem;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.2s, transform 0.2s;
-}
-.newsletter button:hover {
-    background: #7c4a1e;
-    transform: scale(1.05);
-}
-#newsletter-message {
-    margin-top: 1rem;
-    font-size: 1rem;
-    color: #b98046;
-}
 
-footer {
-    background: #3e2723;
-    color: #fff;
-    padding: 2.5rem 1rem 1rem 1rem;
-    font-size: 1rem;
-}
-.footer-top {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-bottom: 1.5rem;
-}
-.footer-brand {
-    flex: 1 1 220px;
-}
-.footer-brand .logo {
-    color: #fff;
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
-}
-.footer-links, .footer-contact {
-    flex: 1 1 180px;
-}
-.footer-links h5, .footer-contact h5 {
-    margin-bottom: 0.7rem;
-    color: #b98046;
-    font-size: 1.1rem;
-}
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-.footer-links ul li {
-    margin-bottom: 0.5rem;
-}
-.footer-links ul li a {
-    color: #fff;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-.footer-links ul li a:hover {
-    color: #b98046;
-}
-.footer-contact p {
-    margin: 0.2rem 0;
-}
-.footer-bottom {
-    border-top: 1px solid #b98046;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1rem;
-    font-size: 0.95rem;
-    flex-wrap: wrap;
-    gap: 1rem;
-}
-.footer-bottom ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-    margin: 0;
-    padding: 0;
-}
-.footer-bottom ul li a {
-    color: #b98046;
-    text-decoration: none;
-    transition: color 0.2s;
-}
-.footer-bottom ul li a:hover {
-    color: #fff;
-}
 
 /* Responsive Design */
 @media (max-width: 900px) {
@@ -394,7 +238,6 @@ footer {
 .hero-image-overlay {
     position: relative;
     width: 100%;
-    max-width: 1200px;
     margin: 0 auto 2.5rem auto;
     border-radius: 0 0 24px 24px;
     overflow: hidden;
