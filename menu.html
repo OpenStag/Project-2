@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brew Haven | Menu</title>
+    <!-- Google Fonts -->
+     <link rel="stylesheet" href="styles/nav-foot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/menu.css">
+    
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+    <div class="logo">Brew Haven</div>
+    <nav>
+      <a href="./home.html">Home</a>
+      <a href="./menu.html" class="active">Menu</a>
+      <a href="./aboutus.html" >About Us</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+    <div>
+      🛒
+    </div>
+  </header>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-overlay">
+            <h1>OUR MENU</h1>
+            <p>Discover our selection of handcrafted beverages and delicious treats.</p>
+        </div>
+    </header>
+
+    <!-- Category Toggle -->
+    <section class="category-toggle">
+        <button class="category-btn active" data-category="hot">Hot drinks</button>
+        <button class="category-btn" data-category="cold">Cold drinks</button>
+        <button class="category-btn" data-category="food">Food</button>
+    </section>
+
+    <!-- Menu Cards -->
+    <main class="menu-cards">
+        <!-- Hot Drinks -->
+        <div class="menu-card" data-category="hot">
+            <img src="image/cappacino.png" alt="Cappuccino" class="menu-img">
+            <div class="menu-info">
+                <h3>Cappuccino</h3>
+                <p>Espresso with steamed milk and a thick layer of milk foam, perfectly balanced.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.620</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="hot">
+            <img src="image/Espresso.png" alt="Espresso" class="menu-img">
+            <div class="menu-info">
+                <h3>Espresso</h3>
+                <p>A concentrated shot of coffee with a rich crema layer, the foundation of all our coffee drinks.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.3000</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="hot">
+            <img src="image/Mocha.png" alt="Mocha" class="menu-img">
+            <div class="menu-info">
+                <h3>Mocha</h3>
+                <p>Espresso with steamed milk and our house-made chocolate sauce, topped with whipped cream.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.1450</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Cold Drinks -->
+        <div class="menu-card" data-category="cold" style="display:none;">
+            <img src="image/iced-coffee-concentrate-DP.jpg" alt="Iced Coffee" class="menu-img">
+            <div class="menu-info">
+                <h3>Iced Coffee</h3>
+                <p>Chilled espresso mixed with cold milk over ice, refreshing and smooth.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.600</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="cold" style="display:none;">
+            <img src="image/Iced_Latte_1.webp" alt="Iced Latte" class="menu-img">
+            <div class="menu-info">
+                <h3>Iced Latte</h3>
+                <p>Espresso poured over ice and topped with cold milk for a creamy finish.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.650</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="cold" style="display:none;">
+            <img src="image/coffee-ice-cream-frappe-frappuccino-feat.jpg" alt="Frappuccino" class="menu-img">
+            <div class="menu-info">
+                <h3>Frappuccino</h3>
+                <p>Blended iced coffee with milk and a touch of sweetness, topped with whipped cream.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.900</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <!-- Food -->
+        <div class="menu-card" data-category="food" style="display:none;">
+            <img src="image/Simply-Recipes-Almond-Croissant-LEAD-8-07f51557bda7499aa6d1ccb4d079ea52.jpg" alt="Almond Croissant" class="menu-img">
+            <div class="menu-info">
+                <h3>Almond Croissant</h3>
+                <p>Flaky butter croissant filled with almond cream and topped with sliced almonds.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.600</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="food" style="display:none;">
+            <img src="image/bakery-style-blueberry-muffins-featured-2.jpg" alt="Blueberry Muffin" class="menu-img">
+            <div class="menu-info">
+                <h3>Blueberry Muffin</h3>
+                <p>Moist vanilla muffin packed with fresh blueberries and topped with a sugar crumble.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.900</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="menu-card" data-category="food" style="display:none;">
+            <img src="image/recipe-cin-roll-hero.jpg" alt="Cinnamon Roll" class="menu-img">
+            <div class="menu-info">
+                <h3>Cinnamon Roll</h3>
+                <p>Soft, sweet roll swirled with cinnamon and topped with vanilla icing.</p>
+                <div class="menu-bottom">
+                    <span class="price">Rs.750</span>
+                    <button class="add-cart-btn">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <!-- Footer -->
+    <footer>
+    <div class="footer-grid">
+      <div>
+        <h3>Brew Haven</h3>
+        <p>Crafting exceptional coffee experiences since 2020. Our mission is to serve smiling coffee in a welcoming environment.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p>Home<br>Menu<br>Gallery<br>Contact</p>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <p>334, Galle Road, Colombo 3<br>070-2223324<br>brew-haven02@gmail.com</p>
+      </div>
+      <div class="subscribe">
+        <h4>Newsletter</h4>
+        <p>Subscribe to receive updates on new offerings and events.</p>
+        <input type="email" placeholder="Enter email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2022 Brew Haven. All rights reserved.</p>
+      <p>Privacy Policy | Terms of Service | Cookie Policy</p>
+    </div>
+  </footer>
+    <!-- Material Icons for cart -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="styles/Menu.js"></script>
+</body>
+</html> 
