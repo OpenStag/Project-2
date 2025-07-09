@@ -5,24 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brew Haven | Menu</title>
     <!-- Google Fonts -->
+     <link rel="stylesheet" href="styles/nav-foot.css">
     <link href="https://fonts.googleapis.com/css2?family=Niconne&family=Inter:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/menu.css">
+    
 </head>
 <body>
-    <!-- Navbar -->
-    <nav class="navbar">
-        <div class="logo">Brew <span>Haven</span></div>
-        <ul class="nav-links">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="menu.html" class="active">Menu</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <div class="cart-icon" aria-label="Shopping Cart">
-            <span class="material-icons">shopping_cart</span>
-        </div>
+    <!-- Navigation Bar -->
+    <header>
+    <div class="logo">Brew Haven</div>
+    <nav>
+      <a href="./home.html">Home</a>
+      <a href="./menu.html" class="active">Menu</a>
+      <a href="./aboutus.html" >About Us</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./contact.html">Contact</a>
     </nav>
+    <div>
+      🛒
+    </div>
+  </header>
 
     <!-- Hero Section -->
     <header class="hero">
@@ -150,42 +152,33 @@
     <div id="toast" class="toast" role="status" aria-live="polite"></div>
 
     <!-- Footer -->
-    <footer class="footer">
-        <div class="footer-content">
-            <div class="footer-about">
-                <h2>Brew Haven</h2>
-                <p>Crafting exceptional coffee experiences since 2020. Our mission is serving smiles in a warm, welcoming environment.</p>
-            </div>
-            <div class="footer-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Gallery</a></li>
-                </ul>
-            </div>
-            <div class="footer-newsletter">
-                <h3>Newsletter</h3>
-                <form action="subscribe.php" method="POST" class="newsletter-form">
-                    <input type="email" name="email" placeholder="Your email" required aria-label="Email address">
-                    <button type="submit">Subscribe</button>
-                </form>
-                <div class="newsletter-success" aria-live="polite"></div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="footer-contact">
-                <p>Contact us: 321, Gala Road, Colombo 03 | 078-2222344 | brewhaven202@gmail.com</p>
-            </div>
-            <div class="footer-legal">
-                <a href="#">Privacy Policy</a> |
-                <a href="#">Terms of Service</a> |
-                <a href="#">Cookie Policy</a>
-            </div>
-        </div>
-    </footer>
-
+    <footer>
+    <div class="footer-grid">
+      <div>
+        <h3>Brew Haven</h3>
+        <p>Crafting exceptional coffee experiences since 2020. Our mission is to serve smiling coffee in a welcoming environment.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p>Home<br>Menu<br>Gallery<br>Contact</p>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <p>334, Galle Road, Colombo 3<br>070-2223324<br>brew-haven02@gmail.com</p>
+      </div>
+      <div class="subscribe">
+        <h4>Newsletter</h4>
+        <p>Subscribe to receive updates on new offerings and events.</p>
+        <input type="email" placeholder="Enter email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2022 Brew Haven. All rights reserved.</p>
+      <p>Privacy Policy | Terms of Service | Cookie Policy</p>
+    </div>
+  </footer>
     <!-- Material Icons for cart -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <script src="styles/Menu.js"></script>
