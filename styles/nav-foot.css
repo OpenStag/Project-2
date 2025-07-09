@@ -1,0 +1,68 @@
+ * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+     body {
+      font-family: 'Roboto', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      margin: 0 auto;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background: white;
+    }
+.logo {
+      font-family: 'Niconne', cursive;
+      font-size: 24px;
+      color: #9e1c23;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #000;
+      font-weight: 500;
+    }
+    nav a.active {
+      color: #d9a55e;
+    }
+
+
+
+
+
+
+    footer {
+      background: #1e1e3f;
+      color: white;
+      padding: 40px 60px;
+    }
+    .footer-grid {
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+    }
+    .footer-grid div {
+      flex: 1;
+    }
+    .footer-bottom {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 14px;
+      color: #aaa;
+    }
+    .subscribe input {
+      padding: 8px;
+      width: 70%;
+    }
+    .subscribe button {
+      padding: 9px 12px;
+      background: #d99036;
+      color: white;
+      border: none;
+    }
+  

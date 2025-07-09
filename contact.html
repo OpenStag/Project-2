@@ -7,7 +7,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    <link rel="stylesheet" href="./styles/nav-foot.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Niconne&display=swap" rel="stylesheet">
 
    <style>
         .bg-image{
@@ -52,6 +53,19 @@
 
 </head>
 <body>
+    <header>
+    <div class="logo">Brew Haven</div>
+    <nav>
+      <a href="./home.html">Home</a>
+      <a href="./menu.html">Menu</a>
+      <a href="./aboutus.html">About Us</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./contact.html" class="active">Contact</a>
+    </nav>
+    <div>
+      🛒
+    </div>
+  </header>
     <!-- hedder photo & main topic --> 
     <div class=" bg-image text-center d-flex flex-column justify-content-center mb-xl-5 " >
         <div><h1 class="title">CONTACT US</h1></div>
@@ -252,6 +266,34 @@
                 </div>
             </div>            
         </div>
-    </div>    
+    </div>
+    
+    <footer>
+    <div class="footer-grid">
+      <div>
+        <h3>Brew Haven</h3>
+        <p>Crafting exceptional coffee experiences since 2020. Our mission is to serve smiling coffee in a welcoming environment.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <p>Home<br>Menu<br>Gallery<br>Contact</p>
+      </div>
+      <div>
+        <h4>Contact Us</h4>
+        <p>334, Galle Road, Colombo 3<br>070-2223324<br>brew-haven02@gmail.com</p>
+      </div>
+      <div class="subscribe">
+        <h4>Newsletter</h4>
+        <p>Subscribe to receive updates on new offerings and events.</p>
+        <input type="email" placeholder="Enter email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <hr>
+    <div class="footer-bottom">
+      <p>&copy; 2022 Brew Haven. All rights reserved.</p>
+      <p>Privacy Policy | Terms of Service | Cookie Policy</p>
+    </div>
+  </footer>
 </body>
 </html>
